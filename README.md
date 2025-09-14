@@ -1,5 +1,6 @@
 # Desafio-2-POO
 
+## Aplicación de escritorio en **Java Swing** con **MySQL** que permite gestionar estudiantes, asignarles grados, registrar notas y administrar usuarios con login.
 
 
 
