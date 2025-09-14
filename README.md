@@ -1,6 +1,18 @@
 # Desafio-2-POO
 
-## Aplicación de escritorio en **Java Swing** con **MySQL** que permite gestionar estudiantes, asignarles grados, registrar notas y administrar usuarios con login.
+### Aplicación de escritorio en **Java Swing** con **MySQL** que permite gestionar estudiantes, asignarles grados, registrar notas y administrar usuarios con login.
+
+## ✨ Funcionalidades
+- Registro, edición y eliminación de **estudiantes**.
+- Asignación de **grados** al momento de crear estudiantes.
+- Registro de **notas** por estudiante, materia y grado.
+- Login y registro de **usuarios**.
+- Vista principal:
+  - **Árbol (JTree)**: muestra los grados y estudiantes por cada grado.
+  - **Tabla (JTable)**: muestra todos los estudiantes con su información detallada.
+- Validaciones de datos (edad, teléfono, contraseñas seguras, etc).
+
+---
 
 
 ## Query SQL
