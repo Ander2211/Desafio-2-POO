@@ -42,9 +42,6 @@ CREATE TABLE IF NOT EXISTS `estudiante` (
 -- Volcado de datos para la tabla `estudiante`
 --
 
-INSERT INTO `estudiante` (`id_estudiante`, `nombre_completo`, `edad`, `direccion`, `telefono`, `created_at`) VALUES
-(5, 'jose roberto', 9, 'calle 3', '12345678', '2025-09-14 17:54:30');
-
 -- --------------------------------------------------------
 
 --
@@ -85,17 +82,6 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   PRIMARY KEY (`id_usuario`),
   UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
---
--- Volcado de datos para la tabla `usuario`
---
-
-INSERT INTO `usuario` (`id_usuario`, `username`, `password_hash`, `created_at`) VALUES
-(1, 'ander', 'Lavadora', '2025-09-14 13:36:05');
-
---
--- Restricciones para tablas volcadas
---
 
 --
 -- Filtros para la tabla `nota`
